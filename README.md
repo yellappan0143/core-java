@@ -11,6 +11,7 @@
 <h2  >Java Questions</h2>
 <ol type="square" >
   <li>WAJP TO CALCULATE THE LEAF YEARS USING IN JAVA</li>
+  <li> WAJP FIND THE ELEMENT WHICH IS MAXMIUM AND MINIUM TO GIVEN ARRAY LIST</li>
 </ol>
 
 
