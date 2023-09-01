@@ -1,0 +1,7 @@
+                                                                                                                                          Oops Concetps
+
+What is class?
+     Class is an blueprint of an object.
+
+
+
