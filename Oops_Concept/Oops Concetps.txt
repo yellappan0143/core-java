@@ -1,7 +1,45 @@
-                                                                                                                                          Oops Concetps
+                                                  OBJECT ORIENTED PROGRAMMING SYSTEM
 
-What is class?
-     Class is an blueprint of an object.
+CLASS *
+   - Class is an blueprint of an object.
+
+OBJECT *
+   - Object is an entity which act as a " States "," Behavior " and unique " Address ".
+   - States is nothing but Data-Member.
+   - Behavior is nothing but Function-Member.
+
+   🡆 A class will two type of members
+         ⇀ DATA-MEMBER.
+         ⇀ FUNCTION-MEMBER.
+
+   🡆 Data-Member are those variable which are declared within the body of the class.
+   🡆 Function-Member are those method/function which are declared within the body of the class.
+
+   🡆 A member of the class are two types.
+         ⇀ STATIC MEMBER.
+         ⇀ NON-STATIC MEMBER.
+
+  STATIC MEMBER *
+     - Any Data-Member or Function-Member of the class declared by using static keywords is called " Static Member ".
+  
+    ⇥ PRESENT IN SAME CLASS
+        - Static Member present in same class can be accessed just by using " MemberName ".
+  
+    ⇥ PRESENT IN DIFFERNET CLASS
+        - Static Member present in different class can be accessed  by using "ClassName" with "MemberName".
+
+  NON-STATIC MEMBER *
+     - Any Data-Member or Function-Member of the class declared by using without static keywords is called "Non-Static Member".
+  
+    ⇥ PRESENT IN SAME CLASS
+        - Non-Static Member present in  class can be accessed within a Static Method only by creating the "Object Of An Class"
+        - Non-Static Member present in class can be accessed within a Non-Static Method directly by using "MemberName"
+  
+    ⇥ PRESENT IN DIFFERNET CLASS
+        - Non-Static Member present in different class can be accessed within any method of a different class only creating the "Object" of an class 
+  
+       
+
 
 
 
