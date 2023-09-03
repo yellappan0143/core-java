@@ -1,4 +1,5 @@
                                                   OBJECT ORIENTED PROGRAMMING SYSTEM
+                                                  ***********************************
 
 CLASS *
 -------
