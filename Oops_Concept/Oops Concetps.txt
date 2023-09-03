@@ -1,16 +1,20 @@
                                                   OBJECT ORIENTED PROGRAMMING SYSTEM
 
 CLASS *
-   - Class is an blueprint of an object.
+-------
+   - Class is an bluepprint of an object.
 
 OBJECT *
-   - Object is an entity which act as a " States "," Behavior " and unique " Address ".
-   - States is nothing but Data-Member.
-   - Behavior is nothing but Function-Member.
+-------
+   - Object is an entity which act as a " States "," Behavior " and unique " Address ".                         
+   - States is nothing but Data-Member.                                                                   CLASS MEMBER
+   - Behavior is nothing but Function-Member.                                                                   |
+                                                                                               |--------------------------------|       
+                                                                                          DATA-MEMBER                   FUNCTION MEMBER
+   🡆 A class will two type of members                                                         |             ,                   |
+         ⇀ DATA-MEMBER.                                                                |-------------|                  |-------------|
+         ⇀ FUNCTION-MEMBER.                                                         STATIC       NON-STATIC          STATIC       NON-STATIC
 
-   🡆 A class will two type of members
-         ⇀ DATA-MEMBER.
-         ⇀ FUNCTION-MEMBER.
 
    🡆 Data-Member are those variable which are declared within the body of the class.
    🡆 Function-Member are those method/function which are declared within the body of the class.
@@ -20,6 +24,7 @@ OBJECT *
          ⇀ NON-STATIC MEMBER.
 
   STATIC MEMBER *
+  ---------------
      - Any Data-Member or Function-Member of the class declared by using static keywords is called " Static Member ".
   
     ⇥ PRESENT IN SAME CLASS
@@ -27,18 +32,119 @@ OBJECT *
   
     ⇥ PRESENT IN DIFFERNET CLASS
         - Static Member present in different class can be accessed  by using "ClassName" with "MemberName".
-
+  
   NON-STATIC MEMBER *
+  ------------------
      - Any Data-Member or Function-Member of the class declared by using without static keywords is called "Non-Static Member".
   
     ⇥ PRESENT IN SAME CLASS
-        - Non-Static Member present in  class can be accessed within a Static Method only by creating the "Object Of An Class"
-        - Non-Static Member present in class can be accessed within a Non-Static Method directly by using "MemberName"
+       ---------------------
+        - Non-Static Member present in  class can be accessed within a Static Method only by creating the "Object Of An Class".
+        - Non-Static Member present in class can be accessed within a Non-Static Method directly by using "MemberName".
   
     ⇥ PRESENT IN DIFFERNET CLASS
-        - Non-Static Member present in different class can be accessed within any method of a different class only creating the "Object" of an class 
-  
-       
+       --------------------------
+        - Non-Static Member present in different class can be accessed within any method of a different class only creating the "Object" of an class.
+                                  
+                                                  TABLE FOR STATIC AND NON-STATIC MEMBERS 
+                                       |-----------------------------------------------------------|
+                                       | CALLING METHOD | CALLED METHOD | LOCATION | HOW TO ACCESS |
+                                       |----------------|---------------|----------|---------------|
+                                   1.  |   Static       |    Static     |    SC    |   Membder     |    * SC  - Same Class
+                                       |----------------|---------------|----------|---------------|    * C.M - ClassName.MemberName
+                                       |   Static       |    Static     |    DC    |    C.M        |    * DC  - Different Class
+                                       |----------------|---------------|----------|---------------|    * DC  - Different Class
+                                       |   Non-Static   |    Static     |    SC    |   Member      |    * SC  - Same Class  
+                                       |----------------|---------------|----------|---------------|
+                                       |   Non-Static   |    Static     |    DC    |    C.M        |       
+                                       |***********************************************************|   
+                                   2.  |   Static       |   Non-Static  |    SC    | Object.Membder|    
+                                       |----------------|---------------|----------|---------------|
+                                       |   Static       |   Non-Static  |    DC    | Object.Membder|    
+                                       |----------------|---------------|----------|---------------|
+                                       |   Non-Static   |   Non-Static  |    SC    |  Member       |       
+                                       |----------------|---------------|----------|---------------|
+                                       |   Non-Static   |   Non-Static  |    DC    | Object.Membder|       
+                                       |----------------|---------------|----------|---------------|
+
+  🡆   STATIC POOL
+       -----------
+          - Static pool if allow one copy of class with all the static member automatically.
+          - Static is keyword in java static keyword mean non-constant.
+
+  🡆   KEEP AREA
+       ---------
+          - If static object with only non-static member and multiple copies are allowed OR created in keep area.
+
+  🡆  FINAK KEYWORD
+      -------------
+          - Final keyword mean constant in java.
+
+  🡆 DECLEARED WITH STATIC.
+    -----------------------
+         - Static member will have only one copy in the memory allocation.
+         - If the value of data member in a class is not changing from one object to another object the those data member should be decleared in 
+           static keyword.
+         - If a function member/ method in a class is using only statice member of the class then those function member / method should be declered 
+           as static keyword.
+
+  🡆 DECLEARED WITHOUT STATIC IS NON-STATIC.
+    -----------------------
+         - Non-Static member will have multiple copyes in the memory allocation.
+         - If the value of data member in a class is changing from one object to another object the those data member should be decleared in 
+           non-static keyword.
+         - If a function member/ method in a class is using atleast one non-statice member of the class then those function member / method should 
+           be declered as non-static.
+
+OBJECT CREATION *
+---------------
+          - Object of a class can be created y using following 
+          EX:
+                SYNTAX: New ClassName();
+
+REFERENCE VARIABLES *
+-------------------
+          - It is a type of variable which is used to store address of an object.
+                 SYNTAX:
+                          ClassName refrence-variable = New Classname();
+                 Example: Account ac = new Account();
+          - Within a reference variable we can't store primitive values.
+                EX: Account a = 15; 
+          - Within a primitive variables we can't store address of an object. 
+                EX: int a = new account(); 
+          - Within one reference variable we can store only one object address.
+          - Multiple reference variable can point to same object.
+          - If multiple reference variable point to same object then, changes done on the data of the object by one reference variable will 
+            impact other reference variables.
+          - If two reference variable point to different object then changes done on the data of one object by one reference variable will 
+            not impact other reference vairable
+
+
+                                                MEMBER VARIABLE AND LOCAL VARIABLE
+                                                ----------------------------------
+          
+                                                              VARIABLES
+                                                                  |
+                                                 |--------------------------------|
+                                           MEMBER VARIABLE                   LOCAL VARIABLE
+                                                 |                                |
+                                        |-----------------|               |-----------------|
+                                      STATIC          NON-STATIC        STATIC          NON-STATIC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
