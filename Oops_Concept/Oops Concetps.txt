@@ -90,7 +90,7 @@ OBJECT *
            as static keyword.
 
   🡆 DECLEARED WITHOUT STATIC IS NON-STATIC.
-    -----------------------
+    ---------------------------------------
          - Non-Static member will have multiple copyes in the memory allocation.
          - If the value of data member in a class is changing from one object to another object the those data member should be decleared in 
            non-static keyword.
