@@ -35,9 +35,7 @@ public class electric_bill {
 
         Scanner sc = new Scanner(System.in);
 
-        // System.out.println("How Many Bill To Pay");
-
-        // int no_of_bill = sc.nextInt(); // SIZE OF ARRAY
+        
         System.out.println("enter no of bills ");
         int no = sc.nextInt();
          System.out.println("enter units");
