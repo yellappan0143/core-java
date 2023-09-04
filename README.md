@@ -1,21 +1,32 @@
 <h1 align="center">CORE JAVA PROGRAMING</h1>
 
-<h3>-->For Loop</h3>
-
+<h3>--> Operators</h3>
+<h3>--> Functions And Methods</h3>
+<h3>--> Scanner Class</h3>
+<h3>--> Control Flow Statements</h3>
 <h3>--> Array</h3>
-<ul>
-  
-  <li>Even & Odd Numbers</li>
-  <li>Count Even & Odd Numbers </li>
-</ul>
 <h3>--> Oops Concepts</h3>
 <ul>
-  <li>Class</li>
-  <li>Object</li>
-      <ul>
-        <li>Data Member</li>
-      </ul>
-  <li></li>
+  <ul>
+   <li>Class And Object *</li>
+   <li>Object Creation</li>
+   <li>Reference Variable</li>
+   <li>Member And Local Variable</li>
+   <li>Constructors</li>
+   <li>Constructors Overloading</li>
+   <li>Method Overloading</li>
+   <li>Java PackageS</li>
+   <li>Access Specificers</li>
+   <li>Java Bean Class</li>
+   <li>Encapsulations *</li>
+   <li>Inheritance</li>
+   <li>Method Overriding</li>
+   <li>Abstract Class And Method</li>
+   <li>Interface And Type Casting</li>
+   <li>Polymorphism *</li>
+   <li>Abstraction *</li>
+   <li>Has-A Rrelation </li> 
+  </ul>
 </ul>
 
 
