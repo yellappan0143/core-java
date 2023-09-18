@@ -1,1 +1,60 @@
+                                                     JAVA INTERVIEW QUESTIONS...!
+                                                     ***************************
+1. What Is java?
+    - Java is an object-oriented programming language.And it is created in 1995 by "James Gosling".Now owned by "Oracle" Everything in java is 
+      associated with classes and objects,along with its attributes and methods.
 
+2. Why java is a platform-independent?
+    - Java code can be written once and run anywhere.Because of Bytecode is platform-independent and can be executed on any platform through 
+      java virtual machine
+
+3. Why java is not 100% Object-Oriented?**
+    - Java is not considered a pure object-oriented programming language.
+    - The main reason it supports primitive type values.Like Boolean,Byte,Char,Int,Short,Long,Float,Double.
+    - To make them Object-Oriented we have wrapper classes which actually "wrap" the primitive data type into an object of that class.
+
+4. What is a Method/Functions in java?
+    - It is a block of code which is use to execute specific task.
+    - Method is used for elimination of duplicate lines of code.
+    - Method is used for code re-useability.
+
+5. Define JRE in Java?
+    - The Java Runtime Environment is a set of software tools which are used for developing Java applications. 
+
+6. Define JVM in java?
+    - JVM stands for Java Virtual Machine.
+    - It is a interperted which help to read byte code to .class file and it help to execute the given class files.
+
+7. Define JIT in java?
+    - JIT stands for Just In Time.
+    - It help to convert byte code into binary.
+
+8. What is Variables?
+
+9. Explain Logical operators?
+    - Logical Operators are used to combain multiple boolean conditions as one single conditions.
+    - Logical Operators always return boolean values.
+    - Type of logical operators.
+            * AND -> &&
+            * OR  -> || 
+            * XOR -> ^
+    --> AND OPERATORS :-
+          # Logical AND operators will return true.
+          # If and only if the return of both the boolean condition result is true and otherwise if return false.
+    --> OR OPERATORS :-
+          # Logical OR operators will return false.
+          # If and only if the return of both the boolean condition result is false and otherwise if return true.
+    --> XOR OPERATORS :-
+          # Logical XOR operators will return false.
+          # If and only if the return of both the boolean condition result is same false or true and otherwise if return true.
+
+
+
+5. what are the various type of Access Specifiers in java?
+    - There are four type of access specifiers:-
+            1.Public     = The data items  and functions are accessiable from anywhaere
+            2.Protected  = Accessible from the classes,package,subclass and from within the class
+            3.Pkg-level  = They strictiy accessed only by the classes present in same package.
+            4.Private    = Accessible from the class where they are define
+
+  
