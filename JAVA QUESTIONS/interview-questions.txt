@@ -17,6 +17,10 @@
     - It is a block of code which is use to execute specific task.
     - Method is used for elimination of duplicate lines of code.
     - Method is used for code re-useability.
+     --> CALLING METHOD:-
+          - A method which is calling another method is calles as calling method
+     --> CALLED METHOD:-
+          - A method which is called another method is calles as called method
 
 5. Define JRE in Java?
     - The Java Runtime Environment is a set of software tools which are used for developing Java applications. 
@@ -48,13 +52,105 @@
           # Logical XOR operators will return false.
           # If and only if the return of both the boolean condition result is same false or true and otherwise if return true.
 
-
-
-5. what are the various type of Access Specifiers in java?
+10. what are the various type of Access Specifiers in java?
     - There are four type of access specifiers:-
             1.Public     = The data items  and functions are accessiable from anywhaere
             2.Protected  = Accessible from the classes,package,subclass and from within the class
             3.Pkg-level  = They strictiy accessed only by the classes present in same package.
             4.Private    = Accessible from the class where they are define
+
+11. What is flow control statement?
+    - Flow control statement are used to control the execution flow of the program at the numbers.
+    - Flow control statement are 2 types.
+    - Decision making statement.
+    - looping statement.
+
+12. What is Decision Making?
+    - Decision making statement are used to execute one or group of statement based on a boolean conditions.
+    - Boolean condition/ expresion --> a statement written using comparsion operators and logical operators is called boolean conditions.
+
+    # Types of Decision Making.
+        * if
+        * if-else
+        * if-else-if
+        * switch
+
+   ##  IF CONDITIONS
+          - IF is a type of decision making one or group of statement written with in the if body will be executed if and only if result of
+            boolean condition is true.
+
+            SYNTAX:  if(boolean condition)
+                      {
+                         // STATEMENTS.....
+                      }
+
+   ##  IF-ELSE CONDITIONS
+          - IF-ELSE is a type of decision making statement where statement of if body are executed if result of boolean condition is true else 
+            the statement of else body are executed. 
+          
+            SYNTAX:  if(boolean condition)
+                      {
+                         // STATEMENTS.....
+                      }esle
+                          {
+                             // STATEMENTS.....
+                          }
+
+   ##  IF-ELSE-IF CONDITIONS
+          - IF is a type of decision making statement which is used to whenever there are multiple boolean condition to be evaluated to executed 
+            different set of statement
+
+            SYNTAX:  if(boolean condition)
+                      {
+                         // STATEMENTS.....
+                      }else if 
+                        {
+                           // STATEMENTS.....
+                        }else if 
+                           {
+                             // STATEMENTS.....
+                           }
+   ##  SWITCH CASE
+          - It is a type of decision making statement which is used to whenever there are only equals condition to be evaluated to executed different 
+            set of statement.
+
+            SYNTAX:  Switch(choice)
+                      {
+                         case 1:  STATEMENT;
+                          Break;
+                         case 2:  STATEMENT;
+                          Break;
+                         case 3:  STATEMENT;
+                          Break;
+                         desult: statement
+                      }
+
+   ##  NESTED-IF CONDITIONS
+          - IF we written if statement with in the body of another if statement is called as nested if
+
+            SYNTAX:  if(boolean condition)
+                      {
+                        if(boolean condition)
+                          {
+                            if (boolean condition)
+                               {
+                                 // STATEMENTS.....
+                               }
+                                // STATEMENTS.....
+                          }
+                             // STATEMENTS.....
+                      }else
+                         {
+                                // STATEMENTS.....
+                         } 
+
+
+
+
+
+
+
+
+
 
   
